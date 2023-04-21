@@ -4,7 +4,7 @@ Collection of prompts used in llm applications such as auto-gpt, babayagi, etc..
 # Prompts:
 
 - [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT): An Autonomous GPT-4 Experiment
-  ```
+  <code>
   Constraints:
   1. ~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.
   2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.
@@ -46,7 +46,7 @@ Collection of prompts used in llm applications such as auto-gpt, babayagi, etc..
       }
   } 
   Ensure the response can beparsed by Python json.loads
-  ```
+  </code>
 - [AgentGPT](https://github.com/reworkd/AgentGPT): AgentGPT allows you to configure and deploy Autonomous AI agents. Name your own custom AI and have it embark on any goal imaginable. It will attempt to reach the goal by thinking of tasks to do, executing them, and learning from the results 🚀.
   - startGoalPrompt
   ```
