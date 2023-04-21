@@ -120,6 +120,5 @@ By centralizing these prompts, we hope to accelerate the development of cutting-
 >]
 >```
 
-
-Please note that the examples provided above are a small selection of prompts from various LLM projects. These projects may have additional prompts or variations, so it is always a good idea to explore their repositories to discover more prompts and understand how they work in the context of each project.
+>Please note that the examples provided above are a small selection of prompts from various LLM projects. These projects may have additional prompts or variations, so it is always a good idea to explore their repositories to discover more prompts and understand how they work in the context of each project.
 
