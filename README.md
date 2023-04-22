@@ -20,7 +20,7 @@ By centralizing these prompts, we hope to accelerate the development of cutting-
 
 # Prompts
 
-#### 1. [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT): An Autonomous GPT-4 Experiment
+#### [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT): An Autonomous GPT-4 Experiment
 
 **Prompts:**
  
@@ -33,6 +33,8 @@ By centralizing these prompts, we hope to accelerate the development of cutting-
 >- **Commands:**
 >  1. Do Nothing: "do_nothing", args: 
 >  2. Task Complete (Shutdown): "task_complete", args: "reason": "<reason>"
+>  3. Google Search
+>  ...
 >
 >- **Resources:**
 >  1. Internet access for searches and information gathering.
@@ -67,7 +69,7 @@ By centralizing these prompts, we hope to accelerate the development of cutting-
 >```
 >Ensure the response can be parsed by Python json.loads.
 
-#### 2. [AgentGPT](https://github.com/reworkd/AgentGPT): AgentGPT allows you to configure and deploy Autonomous AI agents. Name your own custom AI and have it embark on any goal imaginable. It will attempt to reach the goal by thinking of tasks to do, executing them, and learning from the results 🚀.
+#### [AgentGPT](https://github.com/reworkd/AgentGPT): AgentGPT allows you to configure and deploy Autonomous AI agents. Name your own custom AI and have it embark on any goal imaginable. It will attempt to reach the goal by thinking of tasks to do, executing them, and learning from the results 🚀.
 
 **Prompts:**
 
@@ -76,7 +78,7 @@ By centralizing these prompts, we hope to accelerate the development of cutting-
 >- **createTasksPrompt**: You are an AI task creation agent. You have the following objective {goal}. You have the following incomplete tasks {tasks} and have just executed the following task {lastTask} and received the following result {result}. Based on this, create a new task to be completed by your AI system ONLY IF NEEDED such that your goal is more closely reached or completely reached. Return the response as an array of strings that can be used in JSON.parse() and NOTHING ELSE
 
 
-#### 3. [babyagi](https://github.com/yoheinakajima/babyagi): An example of an AI-powered task management system.
+#### [babyagi](https://github.com/yoheinakajima/babyagi): An example of an AI-powered task management system.
 
 **Prompts:**
 
@@ -95,9 +97,33 @@ By centralizing these prompts, we hope to accelerate the development of cutting-
 >Take into account these previously completed tasks: {context}\n.
 >Your task: {task}\nResponse:
 
-#### 4. [camel](https://github.com/lightaime/camel): Communicative Agents for “Mind” Exploration of Large Scale Language Model Society. Prompts are [here](https://github.com/lightaime/camel/tree/master/camel/prompts).
+#### [camel](https://github.com/lightaime/camel): Communicative Agents for “Mind” Exploration of Large Scale Language Model Society. Prompts are [here](https://github.com/lightaime/camel/tree/master/camel/prompts).
 
-#### 5. [wolverine](https://github.com/biobootloader/wolverine): Give your python scripts regenerative healing abilities!
+#### [gpt4-pdf-chatbot-langchain](https://github.com/mayooear/gpt4-pdf-chatbot-langchain): GPT-4 & LangChain - Create a ChatGPT Chatbot for Your PDF Files
+
+**Prompts**:
+
+> **CONDENSE_PROMPT**: Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question.
+>Chat History:
+>
+>{chat_history}
+>
+>Follow Up Input: {question}
+>
+>Standalone question:
+>
+>**QA_PROMPT**: You are a helpful AI assistant. Use the following pieces of context to answer the question at the end.
+>If you don't know the answer, just say you don't know. DO NOT try to make up an answer.
+>If the question is not related to the context, politely respond that you are tuned to only answer questions that are related to the context. 
+>
+> {context}.
+> 
+> Question: {question}
+> 
+> Helpful answer in markdown:
+
+
+#### [wolverine](https://github.com/biobootloader/wolverine): Give your python scripts regenerative healing abilities!
 
 **Prompts:**
 
